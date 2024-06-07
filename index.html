@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Homepage</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay loop muted id="bgvid">
+        <source src="images/comedy_video.mp4" type="video/mp4">
+    </video>
+    <header>
+        <a href="index.html">
+            <img src="images/Logo-comedyclub.png" alt="logo" id="logo">
+        </a>
+        <nav>
+            <ul class="unstyled">
+                <li><a href="#">our story</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div id="mobile-menu-container">
+        <ul class="unstyled">
+            <li><a href="#">our story</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section id="hero">
+        <hgroup>
+            <h1>Comedy nights, film delights!</h1>
+            <h3>We are a Mechelen based movie club, with weekly screenings of the best flix</h3>
+        </hgroup>
+        <ul class="social unstyled">
+            <li><a href="#">FB</a></li>
+            <li><a href="#">IG</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">YT</a></li>
+        </ul>
+        <div id="icon-scroll-down">
+            <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5 19V1M9.5 15L5.5 19L9.5 15ZM5.5 19L1.5 15L5.5 19Z" stroke="#D11F3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+    </section>
+    <main id="gallery">
+        <div class="quote">
+            <blockquote>
+                &quot;Ontdek onze wereld vol film en gelag&quot;
+            </blockquote>
+            <button class="link-button">
+                Ons werk
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="#D11F3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/foto_2.png" alt="foto_2">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Filmhuis <span></span> Comedy Club</h6>
+                <h4>25/03: TEAM AMERICA : WORLD POLICE</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/foto_3.png" alt="foto_3">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Filmhuis <span></span> Comedy Club</h6>
+                <h4>26/02: MON ONCLE</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/foto_4.png" alt="foto_4">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Filmhuis<span></span>Comedy Club</h6>
+                <h4>27/05: CLERKS OPEN MIKE</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/foto_1.png" alt="foto_1">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Filmhuis<span></span>Comedy Club</h6>
+                <h4>29/02: THE BIG LEBOWSKI</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/foto_5.png" alt="foto_5">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Filmhuis<span></span>Comedy CLub</h6>
+                <h4>29/04: THE TRUMAN SHOW </h4>
+            </hgroup>
+        </div>
+    </main>
+    <section id="form">
+        <div class="container-form">
+            <div class="cta-form">
+                <h2>Fill out the form!</h2>
+                <p>Check out the comments for line by line explanations. Form-related code starts on line 145.</p>
+            </div>
+            <form action="" class="form">
+                <input type="text" placeholder="Name" class="form__input" id="name" />
+                <input type="email" placeholder="Email" class="form__input" id="email" />
+                <input type="text" placeholder="Subject" class="form__input" id="subject" />
+            </form>
+        </div>
+    </section>
+    <footer>
+        <hgroup>
+            <h5>The stage is our passion</h5>
+            <h2>Let's enjoy a time togheter</h2>
+        </hgroup>
+        <button class="link-button">
+            Get in touch
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="#D11F3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <ul class="social unstyled">
+            <li><a href="#">FB</a></li>
+            <li><a href="#">IG</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">YT</a></li>
+        </ul>
+        <p>&copy; 2024 Fanta Fantastico. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
